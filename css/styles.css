@@ -32,6 +32,9 @@ h2{
     font-family: 'Orbitron', sans-serif;
     text-align: center;
 }
+fieldset{
+    font-family: 'Orbitron', sans-serif;
+}
 
 .description p{
     font-weight: bold;

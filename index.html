@@ -52,54 +52,54 @@
          <div class="toppings">
           <h2>Extra Topping</h2>
           <p>choose what type of topping you would like on your pizza:</p>
-          <fieldset id="topping" class="form-group" form="pizzaMenu">
+          <fieldset id="pizzaToppings" class="form-group" form="pizzaMenu">
             <div class="row align-items-center">
+              <legend class="col-form-label col-sm-3"></legend>
               <div class="col-sm-12">
                 <div class="form-check">
-                  <input class="form-check-input" id="pepperoni" type="checkbox" value="60" />
-                  <label class="input-group-text" for="inputGroupSelect01">Pepperoni @60/=</label>
-                 </div>
-               
+                  <input class="form-check-input" id="pepporoni" type="checkbox" value="30" />
+                  <label class="form-check-label" for="pepperoni">Pepperoni @70</label>
+                </div>
                 <div class="form-check">
-                    <input class="form-check-input" id="sausage" type="checkbox" value="40" />
-                    <label class="input-group-text" for="inputGroupSelect01">Sausage(sliced) @40/=</label>
+                  <input class="form-check-input" id="beef" type="checkbox" value="70" />
+                  <label class="form-check-label" for="beef">Beef ham @70/=</label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" id="olives" type="checkbox" value="60" />
+                  <label class="form-check-label" for="olives">Black Olives @60/=</label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" id="sausage" type="checkbox" value="50" />
+                  <label class="form-check-label" for="sausage">Sausage(sliced) @50/=</label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" id="chicken" type="checkbox" value="70" />
+                  <label class="form-check-label" for="chicken">Chicken @70/=</label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" id="mushroom" type="checkbox" value="20" />
+                  <label class="form-check-label" for="mushroom">Mushrooms @20/=</label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" id="cheese" type="checkbox" value="60" />
+                  <label class="form-check-label" for="cheese">Cheese @60/=</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" id="bacon" type="checkbox" value="70" />
+                    <label class="form-check-label" for="bacon">Bacon @70/=</label>
                   </div>
                   <div class="form-check">
-                    <input class="form-check-input" id="mushroom" type="checkbox" value="20" />
-                    <label class="input-group-text" for="inputGroupSelect01">Mushroom @20/=</label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" id="bacon" type="checkbox" value="20" />
-                    <label class="input-group-text" for="inputGroupSelect01">Bacon @20/=</label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" id="pineapple" type="checkbox" value="10" />
-                    <label class="input-group-text" for="inputGroupSelect01">Pineapple @10/=</label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" id="beef" type="checkbox" value="30" />
-                    <label class="input-group-text" for="inputGroupSelect01">Beef @30/=</label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" id="ham" type="checkbox" value="40" />
-                    <label class="input-group-text" for="inputGroupSelect01">Ham @40/=</label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" id="chicken" type="checkbox" value="50" />
-                    <label class="input-group-text" for="inputGroupSelect01">Chicken @50/=</label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" id="steak" type="checkbox" value="40" />
-                    <label class="input-group-text" for="inputGroupSelect01">Steak @40/=</label>
+                    <input class="form-check-input" id="pineapple" type="checkbox" value="70" />
+                    <label class="form-check-label" for="pineapple">Pineapple @70/=</label>
                   </div>
                 </div>
-            </div>
-                </div>
-            
+              </div>
             </fieldset>
+        
+            
                 
             <div class="form-group row align-items-center">
-                <input type="number" class="form-control" id="number" placeholder="number of pizza you want to order..." required>
+                <input type="number" class="form-control" id="number" placeholder="number of pizza you want to order..." min="1" required>
                 
               </div>
               <br>
@@ -107,6 +107,7 @@
                 <button type="submit" class="btn btn-primary" id="place"><b>PLACE YOUR ORDER</b></button>
             </div>
         </div>
+        
             <br>
 
 
