@@ -15,6 +15,20 @@ h1{
     font-family: 'Orbitron', sans-serif;
     
 }
+.menu p{
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+}
+h2{
+    font-family: 'Orbitron', sans-serif;
+}
+.toppings h2{
+    text-align: center;
+}
+.toppings p{
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+}
 
 .description p{
     font-weight: bold;
