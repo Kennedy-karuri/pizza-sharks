@@ -29,7 +29,7 @@
             <div class="input-group-prepend">
               <label class="input-group-text" for="inputGroupSelect01">Pizza Size</label>
             </div>
-            <select class="custom-select" id="inputGroupSelect01">
+            <select class="custom-select" id="size">
               <option value="1">Small @500/=</option>
               <option value="2">Medium @750/=</option>
               <option value="3">Large @1000/=</option>
@@ -42,7 +42,7 @@
             <div class="input-group-prepend">
               <label class="input-group-text" for="inputGroupSelect01">Crust Type</label>
             </div>
-            <select class="custom-select" id="inputGroupSelect01">
+            <select class="custom-select" id="crust">
               <option value="1">Thin @150/=</option>
               <option value="2">Medium @250/=</option>
               <option value="3">Thick @300/=</option>
@@ -52,7 +52,7 @@
          <div class="toppings">
           <h2>Extra Topping</h2>
           <p>choose what type of topping you would like on your pizza:</p>
-          <fieldset id="pizzaToppings" class="form-group" form="pizzaMenu">
+          <fieldset id="topping" class="form-group" form="pizzaMenu">
             <div class="row align-items-center">
               <div class="col-sm-12">
                 <div class="form-check">
@@ -95,17 +95,18 @@
                 </div>
             </div>
                 </div>
-              </div>
+            
             </fieldset>
                 
             <div class="form-group row align-items-center">
-                <input type="text" class="form-control" id="amount" placeholder="number of pizza you want to order..." required>
+                <input type="number" class="form-control" id="number" placeholder="number of pizza you want to order..." required>
                 
               </div>
               <br>
               <div class="button">
-                <button type="submit" class="btn btn-primary"><b>PLACE YOUR ORDER</b></button>
+                <button type="submit" class="btn btn-primary" id="place"><b>PLACE YOUR ORDER</b></button>
             </div>
+        </div>
             <br>
 
 
