@@ -19,6 +19,9 @@ h1{
     font-family: 'Orbitron', sans-serif;
     text-align: center;
 }
+.menu h2{
+    text-align: center;
+}
 h2{
     font-family: 'Orbitron', sans-serif;
 }
@@ -45,4 +48,18 @@ h2{
 
 .summary{
     text-align: center;
+}
+
+.location{
+    text-align: center;
+} 
+
+.location {
+    font-family:'Orbitron', sans-serif ;
+}
+
+.contacts {
+    text-align: center;
+    font-family:'Orbitron', sans-serif ;
+
 }
