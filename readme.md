@@ -13,6 +13,9 @@
 * JQUERY
 * JAVASCRIPT
 
+## Description
+This is a website that enables the user to order what type of  pizza they want to have all from the comfort of their homes.The pizza-shark application allows the usser to select the type of size,topings or crust that they may want.
+
 ## Copyright and License
 MIT License
 Permission is hereby granted, free of charge, to any person obtaining a copy
