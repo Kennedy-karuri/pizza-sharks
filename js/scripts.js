@@ -91,6 +91,6 @@ function sumTable() {
 function deliver() {
   var names = $("#names").val();
   var place1 = $("#place1").val();
-  alert(" Thank you " + names + " for visiting pizza-sharks. " + " your order is en-route to " + place1)
+  alert(" Thank you " + names + " for visiting pizza-sharks. " + " Your order is en-route to " + place1)
 
 }
